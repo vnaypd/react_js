@@ -12,18 +12,18 @@ const Array = () => {
             }
         ])
     }
-  return (
-    <div>
-      <button onClick={add}>Add</button>
-        <ul>
-            {array.map(arr => (
-                <div>
-                    <li>{arr.id} - {arr.value}</li>
-                </div>
-            ))}
-        </ul>
-    </div>
-  )
+    return (
+        <div>
+            <button onClick={add}>Add</button>
+            <ul>
+                {array.map(arr => (
+                    <div>
+                        <li>{arr.id} - {arr.value}</li>
+                    </div>
+                ))}
+            </ul>
+        </div>
+    )
 }
 
 export default Array

@@ -1,6 +1,6 @@
-
+import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Routes, Route, NavLink, BrowserRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, NavLink, BrowserRouter } from 'react-router-dom'
 import CssStyle from './Components/CssStyle/CssStyle';
 import FunctionalComp from './Components/FunctionalComp';
 import ClassComp from './Components/ClassComp';
@@ -24,7 +24,7 @@ import FetchingData from './Components/UseEffect/FetchingData';
 import Id from './Components/UseEffect/Id';
 import UseContext1 from './Components/Context/Context1';
 import UseContext2 from './Components/Context/Context2';
-// import PureComp from './Components/PureComp/PureComp';
+import PureComp from './Components/PureComp/PureComp';
 import MainComp from './Components/PureComp/MainComp';
 import ParentCompCallback from './Components/UseCallback/ParentComp';
 

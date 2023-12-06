@@ -10,9 +10,9 @@ const Child = (props) => {
 }
 
 Child.defaultProps = {
-    Pname: "Jill",
-    Page: 55,
-    Pcompany: "Google"
+  Pname: "Jill",
+  Page: 55,
+  Pcompany: "Google"
 }
 
 export default Child

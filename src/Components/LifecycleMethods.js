@@ -25,6 +25,7 @@ export class LifecycleMethods extends Component {
     componentDidUpdate() {
         console.log("component did update")
     }
+    
     getSnapshotBeforeUpdate() {
         console.log("get snapshot before update")
         return true

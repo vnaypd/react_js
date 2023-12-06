@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 const UseState = () => {
-    const [count, setCount] = useState(0)
-    
-    const inc = () => {
-        setCount(count + 1)
-    }
+  const [count, setCount] = useState(0)
+
+  const inc = () => {
+    setCount(count + 1)
+  }
   return (
     <div>
       <h1>Use State hooks method</h1>
