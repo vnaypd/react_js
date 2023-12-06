@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 
 const Context1 = () => {
     const [name, setName] = useState('John')
-  return (
-    <div>
-      <h1>Here is my context component</h1>
-      <h1>{name}</h1>
-      <hr></hr>
-      <Header Pname={name}></Header>
-    </div>
-  )
+    return (
+        <div>
+            <h1>Here is my context component</h1>
+            <h1>{name}</h1>
+            <hr></hr>
+            <Header Pname={name}></Header>
+        </div>
+    )
 }
 
 const Header = (props) => {
