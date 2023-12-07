@@ -12,6 +12,7 @@ export class MainComp extends Component {
             this.setState({name: 'Jackson'})
         }, 2000);    
     }
+    
   render() {
     console.log("Main component *********************")
     return (
