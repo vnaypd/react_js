@@ -5,15 +5,19 @@ import Button from './Button'
 import Salary from './Salary'
 
 const ParentCompCallback = () => {
+
     const [age, setAge] = useState(20)
+
     const [sal, setSalary] = useState(1234)
 
     const incAge = useCallback(() => {
         setAge((age) => age + 1)
     }, [age])
+    
     const incSal = useCallback(() => {
         setSalary((sal) => sal * 10)
     }, [sal])
+
   return (
     <div>
       <Title></Title>

@@ -8,6 +8,5 @@ const Age = (props) => {
     </div>
   )
 }
-
 export default React.memo(Age)
 

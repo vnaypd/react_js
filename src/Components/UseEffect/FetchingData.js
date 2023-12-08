@@ -13,6 +13,7 @@ const FetchingData = () => {
       })
       .catch((err) => console.log(err))
   }, [])
+  
   return (
     <div>
       <ul>
