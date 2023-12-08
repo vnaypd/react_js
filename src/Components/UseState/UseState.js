@@ -6,6 +6,7 @@ const UseState = () => {
   const inc = () => {
     setCount(count + 1)
   }
+  
   return (
     <div>
       <h1>Use State hooks method</h1>
